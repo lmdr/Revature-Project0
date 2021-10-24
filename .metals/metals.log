@@ -2130,3 +2130,183 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.10.24 16:22:00 INFO  time: compiled project0 in 1.01s[0m
 [0m2021.10.24 16:29:05 INFO  compiling project0 (1 scala source)[0m
 [0m2021.10.24 16:29:07 INFO  time: compiled project0 in 1.19s[0m
+[0m2021.10.24 16:38:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:38:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:38:45 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:38:45 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55879 .[0m
+[0m2021.10.24 16:38:45 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:39:00 ERROR [error response][evaluate]: an implementation is missing[0m
+[0m2021.10.24 16:39:03 ERROR [error response][evaluate]: an implementation is missing[0m
+[0m2021.10.24 16:39:12 INFO  Canceling debug proxy for [Main][0m
+[0m2021.10.24 16:39:12 INFO  Closing debug server tcp://0.0.0.0:55876[0m
+[0m2021.10.24 16:40:09 INFO  shutting down Metals[0m
+[0m2021.10.24 16:40:09 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.24 16:40:09 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.10.24 16:43:22 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\achly\RevatureProjects\project0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.24 16:43:25 INFO  time: initialize in 2.48s[0m
+[0m2021.10.24 16:43:26 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.24 16:43:25 WARN  no build target for: C:\Users\achly\RevatureProjects\project0\src\main\scala\Menu.scala[0m
+[0m2021.10.24 16:43:27 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11967'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11967...
+The server is listening for incoming connections at tcp://127.0.0.1:11967...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Oct 24, 2021 4:43:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+[0m2021.10.24 16:43:28 WARN  no build target for: C:\Users\achly\RevatureProjects\project0\build.sbt[0m
+[0m2021.10.24 16:43:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 16:43:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20932'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20932...
+The server is listening for incoming connections at tcp://127.0.0.1:20932...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 16:43:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 16:43:32 INFO  time: Connected to build server in 6.12s[0m
+[0m2021.10.24 16:43:32 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.24 16:43:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 24, 2021 4:43:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+[0m2021.10.24 16:43:35 INFO  time: Imported build in 0.18s[0m
+[0m2021.10.24 16:43:37 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 24, 2021 4:43:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Oct 24, 2021 4:43:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+[0m2021.10.24 16:43:38 WARN  no build target for: C:\Users\achly\RevatureProjects\project0\build.sbt[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 12s[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 3.21s[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 3.33s[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 3.45s[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 3.46s[0m
+[0m2021.10.24 16:43:41 INFO  time: code lens generation in 12s[0m
+[0m2021.10.24 16:43:41 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\achly\AppData\Local\Temp\metals4658064156390266540\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.24 16:43:45 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+[0m2021.10.24 16:43:45 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/achly/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+[0m2021.10.24 16:43:45 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+[0m2021.10.24 16:43:45 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+[0m2021.10.24 16:43:47 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17)[0m
+[0m2021.10.24 16:43:49 INFO  [info] loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.24 16:43:51 INFO  [info] loading project definition from C:\Users\achly\RevatureProjects\project0\project\project[0m
+[0m2021.10.24 16:43:55 INFO  [info] loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.24 16:43:55 INFO  [info] loading project definition from C:\Users\achly\RevatureProjects\project0\project[0m
+[0m2021.10.24 16:43:56 INFO  time: code lens generation in 14s[0m
+[0m2021.10.24 16:43:56 INFO  time: indexed workspace in 21s[0m
+[0m2021.10.24 16:44:01 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.24 16:44:04 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.24 16:44:04 INFO  [success] Total time: 8 s, completed Oct 24, 2021, 4:44:04 PM[0m
+[0m2021.10.24 16:44:08 INFO  time: code lens generation in 8.25s[0m
+[0m2021.10.24 16:44:10 INFO  [info] loading settings for project project0 from build.sbt ...[0m
+[0m2021.10.24 16:44:10 INFO  [info] set current project to revature-project0 (in build file:/C:/Users/achly/RevatureProjects/project0/)[0m
+[0m2021.10.24 16:44:12 INFO  [success] Generated .bloop\project0.json[0m
+[0m2021.10.24 16:44:12 INFO  [success] Generated .bloop\project0-test.json[0m
+[0m2021.10.24 16:44:12 INFO  [success] Total time: 1 s, completed Oct 24, 2021, 4:44:12 PM[0m
+[0m2021.10.24 16:44:12 INFO  time: ran 'sbt bloopInstall' in 31s[0m
+[0m2021.10.24 16:44:12 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.24 16:44:12 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.24 16:44:12 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.24 16:44:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31501'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\achly\RevatureProjects\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\achly\RevatureProjects\project0\.bloop\project0-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\achly\RevatureProjects\project0\.bloop\project0.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'project0', 'project0-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31501...
+The server is listening for incoming connections at tcp://127.0.0.1:31501...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 16:44:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 16:44:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36994'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36994...
+The server is listening for incoming connections at tcp://127.0.0.1:36994...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 16:44:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 16:44:14 INFO  time: Connected to build server in 1.89s[0m
+[0m2021.10.24 16:44:14 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.24 16:44:14 INFO  time: Imported build in 0.13s[0m
+[0m2021.10.24 16:44:18 INFO  time: indexed workspace in 3.33s[0m
+[0m2021.10.24 16:44:18 INFO  compiling project0 (3 scala sources)[0m
+[0m2021.10.24 16:44:21 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.10.24 16:44:24 INFO  time: code lens generation in 3.73s[0m
+Exception in thread "pool-9-thread-1" java.lang.NoClassDefFoundError: javax/tools/DiagnosticListener
+	at scala.tools.util.PathResolverBase$Calculated$.javaBootClasspath(PathResolver.scala:277)
+	at scala.tools.util.PathResolverBase$Calculated$.basis(PathResolver.scala:283)
+	at scala.tools.util.PathResolverBase$Calculated$.containers$lzycompute(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase$Calculated$.containers(PathResolver.scala:293)
+	at scala.tools.util.PathResolverBase.containers(PathResolver.scala:309)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:341)
+	at scala.tools.util.PathResolver.computeResult(PathResolver.scala:332)
+	at scala.tools.util.PathResolverBase.result(PathResolver.scala:314)
+	at scala.tools.nsc.backend.JavaPlatform$class.classPath(JavaPlatform.scala:28)
+	at scala.tools.nsc.Global$GlobalPlatform.classPath(Global.scala:115)
+	at scala.tools.nsc.Global.scala$tools$nsc$Global$$recursiveClassPath(Global.scala:131)
+	at scala.tools.nsc.Global$GlobalMirror.rootLoader(Global.scala:64)
+	at scala.reflect.internal.Mirrors$Roots$RootClass.<init>(Mirrors.scala:307)
+	at scala.reflect.internal.Mirrors$Roots.RootClass$lzycompute(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots.RootClass(Mirrors.scala:321)
+	at scala.reflect.internal.Mirrors$Roots$EmptyPackageClass.<init>(Mirrors.scala:330)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass$lzycompute(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:336)
+	at scala.reflect.internal.Mirrors$Roots.EmptyPackageClass(Mirrors.scala:276)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:250)
+	at scala.tools.nsc.Global.rootMirror$lzycompute(Global.scala:73)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:71)
+	at scala.tools.nsc.Global.rootMirror(Global.scala:39)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass$lzycompute(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.ObjectClass(Definitions.scala:257)
+	at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1390)
+	at scala.tools.nsc.Global$Run.<init>(Global.scala:1242)
+	at scala.tools.nsc.interactive.Global$TyperRun.<init>(Global.scala:1321)
+	at scala.tools.nsc.interactive.Global.newTyperRun(Global.scala:1344)
+	at scala.tools.nsc.interactive.Global.<init>(Global.scala:299)
+	at scala.meta.internal.pc.MetalsGlobal.<init>(MetalsGlobal.scala:37)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.newCompiler(ScalaPresentationCompiler.scala:259)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$anonfun$1.apply(ScalaPresentationCompiler.scala:84)
+	at scala.meta.internal.pc.CompilerAccess.loadCompiler(CompilerAccess.scala:37)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$withNonInterruptableCompiler$1.apply(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: javax.tools.DiagnosticListener
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:440)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 42 more
+[0m2021.10.24 16:44:27 INFO  time: compiled project0 in 8.83s[0m
+Oct 24, 2021 4:50:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

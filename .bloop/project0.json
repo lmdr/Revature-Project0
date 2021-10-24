@@ -6,41 +6,42 @@
         "workspaceDir": "C:\\Users\\achly\\RevatureProjects\\project0",
         "sources": [
             "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\scala",
-            "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\scala-2.13",
+            "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\scala-2.11",
             "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\scala-2",
             "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\java",
-            "C:\\Users\\achly\\RevatureProjects\\project0\\target\\scala-2.13\\src_managed\\main"
+            "C:\\Users\\achly\\RevatureProjects\\project0\\target\\scala-2.11\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3.jar",
-            "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar",
+            "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar",
+            "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.1.2\\scala-parser-combinators_2.11-1.1.2.jar",
             "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\mysql\\mysql-connector-java\\8.0.26\\mysql-connector-java-8.0.26.jar",
             "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\protobuf\\protobuf-java\\3.11.4\\protobuf-java-3.11.4.jar"
         ],
         "out": "C:\\Users\\achly\\RevatureProjects\\project0\\.bloop\\project0",
-        "classesDir": "C:\\Users\\achly\\RevatureProjects\\project0\\.bloop\\project0\\scala-2.13\\classes",
+        "classesDir": "C:\\Users\\achly\\RevatureProjects\\project0\\.bloop\\project0\\scala-2.11\\classes",
         "resources": [
             "C:\\Users\\achly\\RevatureProjects\\project0\\src\\main\\resources",
-            "C:\\Users\\achly\\RevatureProjects\\project0\\target\\scala-2.13\\resource_managed\\main"
+            "C:\\Users\\achly\\RevatureProjects\\project0\\target\\scala-2.11\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.13.3",
+            "version": "2.11.12",
             "options": [
                 
             ],
             "jars": [
-                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3.jar",
-                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.3\\scala-compiler-2.13.3.jar",
-                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.3\\scala-reflect-2.13.3.jar",
-                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.15.0\\jline-3.15.0.jar",
-                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar",
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.11.12\\scala-compiler-2.11.12.jar",
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar",
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.5\\scala-xml_2.11-1.0.5.jar",
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar",
+                "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.3\\jline-2.14.3.jar"
             ],
-            "analysis": "C:\\Users\\achly\\RevatureProjects\\project0\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "analysis": "C:\\Users\\achly\\RevatureProjects\\project0\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.11.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -116,34 +117,34 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.3",
+                    "version": "2.11.12",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3.jar"
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3-sources.jar"
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.13",
+                    "name": "scala-parser-combinators_2.11",
                     "version": "1.1.2",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-parser-combinators_2.13",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
+                            "name": "scala-parser-combinators_2.11",
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.1.2\\scala-parser-combinators_2.11-1.1.2.jar"
                         },
                         {
-                            "name": "scala-parser-combinators_2.13",
+                            "name": "scala-parser-combinators_2.11",
                             "classifier": "sources",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2-sources.jar"
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.1.2\\scala-parser-combinators_2.11-1.1.2-sources.jar"
                         }
                     ]
                 },
@@ -184,17 +185,17 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.3",
+                    "version": "2.11.12",
                     "configurations": "optional",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3.jar"
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3-sources.jar"
+                            "path": "C:\\Users\\achly\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
                         }
                     ]
                 }

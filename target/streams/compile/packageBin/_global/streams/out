@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\achly\RevatureProjects\project0\target\scala-2.13\revature-project0_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DBConnection$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\DBConnection$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DBConnection.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\DBConnection.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Menu$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\Menu$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Menu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\achly\RevatureProjects\project0\target\scala-2.13\classes\Menu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

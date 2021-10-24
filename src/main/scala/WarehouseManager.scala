@@ -12,7 +12,7 @@ object WarehouseManager {
         println("Error: No Results")
       } else {
         do {
-          val id = sql_results.getString("id")
+          val warehouse_id = sql_results.getString("warehouse_id")
           val name = sql_results.getString("name")
           val address = sql_results.getString("address")
           val city = sql_results.getString("city")
@@ -23,7 +23,7 @@ object WarehouseManager {
           val email = sql_results.getString("email")
 
           println("{")
-          println("\tid: " + id)
+          println("\twarehouse_id: " + warehouse_id)
           println("\tname: " + name)
           println("\taddress: " + address)
           println("\tcity: " + city)
@@ -38,7 +38,7 @@ object WarehouseManager {
     } catch {
       case sql: SQLException =>
         sql.printStackTrace()
-        println("Error SQL")
+        println("Error: SQL")
     }
   }
 
@@ -52,6 +52,31 @@ object WarehouseManager {
 
   def show_locations(): Unit = {
     println("show_locations()")
+    try {
+      val sql = "SELECT * FROM location"
+      val sql_statement = DBConnection.getConnection().createStatement()
+      val sql_results = sql_statement.executeQuery(sql)
+
+      if (!sql_results.next()) {
+        println("Error: No Results")
+      } else {
+        do {
+          val location_id = sql_results.getString("location_id")
+          val warehouse_id = sql_results.getString("warehouse_id")
+          val name = sql_results.getString("name")
+
+          println("{")
+          println("\tlocation_id: " + location_id)
+          println("\twarehouse_id: " + warehouse_id)
+          println("\tname: " + name)
+          println("}\n")
+        } while (sql_results.next())
+      }
+    } catch {
+      case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+    }
   }
 
   def add_location(): Unit = {

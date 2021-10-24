@@ -1290,3 +1290,843 @@ No more data in the server stdin, exiting...
 [0m2021.10.22 14:45:32 INFO  Shut down connection with build server.[0m
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.10.24 11:37:57 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\achly\RevatureProjects\project0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.24 11:38:00 INFO  time: initialize in 2.52s[0m
+[0m2021.10.24 11:38:01 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.24 11:38:00 WARN  no build target for: C:\Users\achly\RevatureProjects\project0\build.sbt[0m
+[0m2021.10.24 11:38:01 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11845'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.24 11:38:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\achly\RevatureProjects\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\achly\RevatureProjects\project0\.bloop\project0-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\achly\RevatureProjects\project0\.bloop\project0.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\achly\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'project0-test', 'project0'
+[0m[32m[D][0m Missing analysis file for project 'project0-test'
+[0m[32m[D][0m Loading previous analysis for 'project0' from 'C:\Users\achly\RevatureProjects\project0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11845...
+The server is listening for incoming connections at tcp://127.0.0.1:11845...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 11:38:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 11:38:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36512'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36512...
+The server is listening for incoming connections at tcp://127.0.0.1:36512...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 11:38:13 INFO  time: code lens generation in 11s[0m
+[0m2021.10.24 11:38:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.24 11:38:14 INFO  time: Connected to build server in 13s[0m
+[0m2021.10.24 11:38:14 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.24 11:38:14 INFO  time: Imported build in 0.26s[0m
+[0m2021.10.24 11:38:18 INFO  time: indexed workspace in 4.33s[0m
+[0m2021.10.24 11:38:21 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.24 11:38:31 INFO  time: code lens generation in 9.49s[0m
+[0m2021.10.24 15:24:13 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:24:18 INFO  time: compiled project0 in 5.33s[0m
+[0m2021.10.24 15:24:21 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:24:21 INFO  time: compiled project0 in 0.99s[0m
+Oct 24, 2021 3:24:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Oct 24, 2021 3:24:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+Oct 24, 2021 3:25:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 174
+Oct 24, 2021 3:25:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Oct 24, 2021 3:25:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+Oct 24, 2021 3:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+Oct 24, 2021 3:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 204
+Oct 24, 2021 3:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+Oct 24, 2021 3:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 224
+Oct 24, 2021 3:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+[0m2021.10.24 15:27:09 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:27:09 INFO  time: compiled project0 in 0.96s[0m
+[0m2021.10.24 15:46:29 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:46:29 INFO  time: compiled project0 in 0.41s[0m
+[0m2021.10.24 15:46:55 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:46:56 INFO  time: compiled project0 in 1.17s[0m
+[0m2021.10.24 15:50:16 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:50:16 INFO  time: compiled project0 in 0.15s[0m
+[0m2021.10.24 15:50:40 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:50:40 INFO  time: compiled project0 in 0.17s[0m
+Oct 24, 2021 3:50:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1289
+Oct 24, 2021 3:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1295
+[0m2021.10.24 15:50:56 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:50:56 INFO  time: compiled project0 in 0.21s[0m
+Oct 24, 2021 3:51:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1303
+Oct 24, 2021 3:51:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1309
+[0m2021.10.24 15:52:01 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:52:01 INFO  time: compiled project0 in 0.18s[0m
+[0m2021.10.24 15:52:11 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:52:11 INFO  time: compiled project0 in 1s[0m
+[0m2021.10.24 15:52:25 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:52:25 INFO  time: compiled project0 in 0.14s[0m
+[0m2021.10.24 15:52:35 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:52:35 INFO  time: compiled project0 in 0.92s[0m
+Oct 24, 2021 3:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 21 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 24, 2021 3:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..19]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+[0m2021.10.24 15:57:36 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:57:36 INFO  time: compiled project0 in 0.11s[0m
+[0m2021.10.24 15:57:58 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 15:57:59 INFO  time: compiled project0 in 1.02s[0m
+[0m2021.10.24 16:07:50 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:07:50 INFO  time: compiled project0 in 0.98s[0m
+Oct 24, 2021 4:08:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.10.24 16:08:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:08:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:08:17 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:08:17 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52946 .[0m
+[0m2021.10.24 16:08:17 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:08:18 ERROR java.sql.SQLException: Access denied for user 'user'@'localhost' (using password: YES)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)[0m
+[0m2021.10.24 16:08:18 ERROR 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)[0m
+[0m2021.10.24 16:08:18 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)[0m
+[0m2021.10.24 16:08:18 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)[0m
+[0m2021.10.24 16:08:18 ERROR 	at DBConnection$.connect(DBConnection.scala:12)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:5)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:08:18 ERROR Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because the return value of "DBConnection$.connection()" is null[0m
+[0m2021.10.24 16:08:18 ERROR 	at DBConnection$.disconnect(DBConnection.scala:25)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:7)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:08:18 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:08:18 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:08:18 INFO  Closing debug server tcp://0.0.0.0:52942[0m
+[0m2021.10.24 16:08:20 INFO  Canceling debug proxy for [Main][0m
+Oct 24, 2021 4:08:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2421
+[0m2021.10.24 16:08:54 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:08:55 INFO  time: compiled project0 in 1.3s[0m
+[0m2021.10.24 16:08:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:08:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:08:58 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:08:58 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52961 .[0m
+[0m2021.10.24 16:08:58 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:08:59 ERROR java.sql.SQLException: Access denied for user 'user'@'localhost' (using password: YES)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)[0m
+[0m2021.10.24 16:08:59 ERROR 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)[0m
+[0m2021.10.24 16:08:59 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)[0m
+[0m2021.10.24 16:08:59 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)[0m
+[0m2021.10.24 16:08:59 ERROR 	at DBConnection$.connect(DBConnection.scala:12)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:5)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:08:59 ERROR Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because the return value of "DBConnection$.connection()" is null[0m
+[0m2021.10.24 16:08:59 ERROR 	at DBConnection$.disconnect(DBConnection.scala:25)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:7)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:08:59 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:08:59 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:08:59 INFO  Closing debug server tcp://0.0.0.0:52958[0m
+[0m2021.10.24 16:09:00 INFO  Canceling debug proxy for [Main][0m
+Oct 24, 2021 4:10:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2476
+[0m2021.10.24 16:10:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:10:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:10:21 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:10:21 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52975 .[0m
+[0m2021.10.24 16:10:21 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:10:22 ERROR java.sql.SQLException: Access denied for user 'user'@'localhost' (using password: YES)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)[0m
+[0m2021.10.24 16:10:22 ERROR 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)[0m
+[0m2021.10.24 16:10:22 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)[0m
+[0m2021.10.24 16:10:22 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)[0m
+[0m2021.10.24 16:10:22 ERROR 	at DBConnection$.connect(DBConnection.scala:12)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:5)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:10:22 ERROR Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because the return value of "DBConnection$.connection()" is null[0m
+[0m2021.10.24 16:10:22 ERROR 	at DBConnection$.disconnect(DBConnection.scala:25)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:7)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$delayedInit$body.apply(Main.scala:3)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.24 16:10:22 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main$.main(Main.scala:3)[0m
+[0m2021.10.24 16:10:22 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.24 16:10:22 INFO  Closing debug server tcp://0.0.0.0:52972[0m
+[0m2021.10.24 16:10:23 INFO  Canceling debug proxy for [Main][0m
+[0m2021.10.24 16:11:41 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:11:43 INFO  time: compiled project0 in 1.34s[0m
+[0m2021.10.24 16:11:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:11:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:11:44 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:11:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52988 .[0m
+[0m2021.10.24 16:11:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:11:45 INFO  Canceling debug proxy for [Main][0m
+[0m2021.10.24 16:11:45 INFO  Closing debug server tcp://0.0.0.0:52985[0m
+Oct 24, 2021 4:11:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2502
+Oct 24, 2021 4:11:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2508
+Oct 24, 2021 4:12:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2544
+Oct 24, 2021 4:12:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2550
+Oct 24, 2021 4:12:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2556
+Oct 24, 2021 4:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2562
+Oct 24, 2021 4:12:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2568
+Oct 24, 2021 4:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2574
+[0m2021.10.24 16:12:37 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:12:37 INFO  time: compiled project0 in 0.9s[0m
+[0m2021.10.24 16:12:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.24 16:12:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\achly\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.24 16:12:42 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.24 16:12:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53002 .[0m
+[0m2021.10.24 16:12:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.24 16:13:10 INFO  Closing debug server tcp://0.0.0.0:52999[0m
+[0m2021.10.24 16:13:10 INFO  Canceling debug proxy for [Main][0m
+Oct 24, 2021 4:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2598
+Oct 24, 2021 4:13:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2604
+[0m2021.10.24 16:13:40 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:13:40 INFO  time: compiled project0 in 0.99s[0m
+Oct 24, 2021 4:13:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2634
+[0m2021.10.24 16:13:48 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:13:48 INFO  time: compiled project0 in 0.91s[0m
+[0m2021.10.24 16:13:56 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:13:56 INFO  time: compiled project0 in 0.93s[0m
+Oct 24, 2021 4:14:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.24 16:18:59 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:18:59 INFO  time: compiled project0 in 0.15s[0m
+[0m2021.10.24 16:21:59 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:22:00 INFO  time: compiled project0 in 1.01s[0m
+[0m2021.10.24 16:29:05 INFO  compiling project0 (1 scala source)[0m
+[0m2021.10.24 16:29:07 INFO  time: compiled project0 in 1.19s[0m

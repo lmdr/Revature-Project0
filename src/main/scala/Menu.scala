@@ -21,6 +21,8 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
+
+      println("\n")
     } while (!exit)
   }
 
@@ -50,6 +52,8 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
+
+      println("\n")
     } while (!exit)
   }
 
@@ -79,6 +83,8 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
+
+      println("\n")
     } while (!exit)
   }
 
@@ -100,6 +106,8 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
+
+      println("\n")
     } while (!exit)
   }
 }

@@ -1,7 +1,7 @@
 import scala.io.StdIn
 
 object Menu {
-  def display_main_menu():Unit = {
+  def display_main_menu(): Unit = {
     var exit = false
     do {
       var choice = 0
@@ -24,7 +24,7 @@ object Menu {
     } while (!exit)
   }
 
-  def display_warehouse_menu():Unit = {
+  def display_warehouse_menu(): Unit = {
     var exit = false
     do {
       var choice = 0
@@ -39,17 +39,17 @@ object Menu {
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => display_warehouse_menu()
-        case 2 => display_warehouse_menu()
-        case 3 => display_warehouse_menu()
-        case 4 => display_warehouse_menu()
+        case 1 => WarehouseManager.add_warehouse()
+        case 2 => WarehouseManager.remove_warehouse()
+        case 3 => WarehouseManager.add_location()
+        case 4 => WarehouseManager.remove_location()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
     } while (!exit)
   }
 
-  def display_product_menu():Unit = {
+  def display_product_menu(): Unit = {
     var exit = false
     do {
       var choice = 0
@@ -64,17 +64,17 @@ object Menu {
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => display_product_menu()
-        case 2 => display_product_menu()
-        case 3 => display_product_menu()
-        case 4 => display_product_menu()
+        case 1 => ProductManager.add_vendor()
+        case 2 => ProductManager.remove_vendor()
+        case 3 => ProductManager.add_product()
+        case 4 => ProductManager.remove_product()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
     } while (!exit)
   }
 
-  def display_inventory_menu():Unit = {
+  def display_inventory_menu(): Unit = {
     var exit = false
     do {
       var choice = 0
@@ -86,7 +86,7 @@ object Menu {
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => display_inventory_menu()
+        case 1 => InventoryManager.adjust()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }

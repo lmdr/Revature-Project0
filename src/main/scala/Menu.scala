@@ -32,7 +32,7 @@ object Menu {
       println("1. Add Warehouse...")
       println("2. Remove Warehouse...")
       println("3. Add Location...")
-      println("3. Remove Location...")
+      println("4. Remove Location...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
@@ -57,7 +57,7 @@ object Menu {
       println("1. Add Vendor...")
       println("2. Remove Vendor...")
       println("3. Add Product...")
-      println("3. Remove Product...")
+      println("4. Remove Product...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")

@@ -18,7 +18,6 @@ object DBConnection {
         sql.printStackTrace();
         println("Error: SQL")
     }
-    
   }
 
   def disconnect(): Unit = {

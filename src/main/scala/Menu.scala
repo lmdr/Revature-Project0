@@ -29,20 +29,24 @@ object Menu {
     do {
       var choice = 0
       println("---------------- Warehouse Management Menu ----------------")
-      println("1. Add Warehouse...")
-      println("2. Remove Warehouse...")
-      println("3. Add Location...")
-      println("4. Remove Location...")
+      println("1. Show Warehouses...")
+      println("2. Add Warehouse...")
+      println("3. Remove Warehouse...")
+      println("4. Show Locations...")
+      println("5. Add Location...")
+      println("6. Remove Location...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => WarehouseManager.add_warehouse()
-        case 2 => WarehouseManager.remove_warehouse()
-        case 3 => WarehouseManager.add_location()
-        case 4 => WarehouseManager.remove_location()
+        case 1 => WarehouseManager.show_warehouses()
+        case 2 => WarehouseManager.add_warehouse()
+        case 3 => WarehouseManager.remove_warehouse()
+        case 4 => WarehouseManager.show_locations()
+        case 5 => WarehouseManager.add_location()
+        case 6 => WarehouseManager.remove_location()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
@@ -54,20 +58,24 @@ object Menu {
     do {
       var choice = 0
       println("---------------- Product Management Menu ----------------")
-      println("1. Add Vendor...")
-      println("2. Remove Vendor...")
-      println("3. Add Product...")
-      println("4. Remove Product...")
+      println("1. Show Vendors...")
+      println("2. Add Vendor...")
+      println("3. Remove Vendor...")
+      println("4. Show Products...")
+      println("5. Add Product...")
+      println("6. Remove Product...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => ProductManager.add_vendor()
-        case 2 => ProductManager.remove_vendor()
-        case 3 => ProductManager.add_product()
-        case 4 => ProductManager.remove_product()
+        case 1 => ProductManager.show_vendors()
+        case 2 => ProductManager.add_vendor()
+        case 3 => ProductManager.remove_vendor()
+        case 4 => ProductManager.show_products()
+        case 5 => ProductManager.add_product()
+        case 6 => ProductManager.remove_product()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
@@ -79,14 +87,16 @@ object Menu {
     do {
       var choice = 0
       println("---------------- Inventory Management Menu ----------------")
-      println("1. Adjust...")
+      println("1. Show Inventory...")
+      println("2. Adjust...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
 
       choice match {
-        case 1 => InventoryManager.adjust()
+        case 1 => InventoryManager.show_inventory()
+        case 2 => InventoryManager.adjust()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }

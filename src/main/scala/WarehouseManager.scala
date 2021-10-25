@@ -1,4 +1,5 @@
 import java.sql.SQLException
+import scala.io.StdIn
 
 object WarehouseManager {
   def show_warehouses(): Unit = {
@@ -44,6 +45,25 @@ object WarehouseManager {
 
   def add_warehouse(): Unit = {
     println("add_warehouse()")
+    val name = scala.io.StdIn.readLine("Input warehouse name: ")
+    val address = scala.io.StdIn.readLine("Input address: ")
+    val city = scala.io.StdIn.readLine("Input city: ")
+    val state = scala.io.StdIn.readLine("Input state: ")
+    val country = scala.io.StdIn.readLine("Input country: ")
+    val postal_code = scala.io.StdIn.readLine("Input postal code: ")
+    val phone = scala.io.StdIn.readLine("Input phone number: ")
+    val email = scala.io.StdIn.readLine("Input email address: ")
+
+    try {
+      val sql = s"INSERT INTO warehouse (name, address, city, state, country, postal_code, phone, email)" +
+        s"VALUES ('$name', '$address', '$city', '$state', '$country', '$postal_code', $phone, '$email')"
+      val sql_statement = DBConnection.getConnection().createStatement()
+      val sql_results = sql_statement.executeUpdate(sql)
+      } catch {
+      case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+    }
   }
 
   def remove_warehouse(): Unit = {
@@ -81,6 +101,19 @@ object WarehouseManager {
 
   def add_location(): Unit = {
     println("add_location()")
+    val warehouse_id = scala.io.StdIn.readLine("Input warehouse id: ")
+    val name = scala.io.StdIn.readLine("Input location name: ")
+
+    try {
+      val sql = s"INSERT INTO location (warehouse_id, name)" +
+        s"VALUES ($warehouse_id, '$name')"
+      val sql_statement = DBConnection.getConnection().createStatement()
+      val sql_results = sql_statement.executeUpdate(sql)
+      } catch {
+      case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+    }
   }
 
   def remove_location(): Unit = {

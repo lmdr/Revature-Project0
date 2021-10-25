@@ -46,6 +46,26 @@ object ProductManager {
 
   def add_vendor(): Unit = {
     println("add_vendor()")
+    val name = scala.io.StdIn.readLine("Input vendor name: ")
+    val contact = scala.io.StdIn.readLine("Input contact name: ")
+    val address = scala.io.StdIn.readLine("Input address: ")
+    val city = scala.io.StdIn.readLine("Input city: ")
+    val state = scala.io.StdIn.readLine("Input state: ")
+    val country = scala.io.StdIn.readLine("Input country: ")
+    val postal_code = scala.io.StdIn.readLine("Input postal code: ")
+    val phone = scala.io.StdIn.readLine("Input phone number: ")
+    val email = scala.io.StdIn.readLine("Input email address: ")
+
+    try {
+      val sql = s"INSERT INTO vendor (name, contact, address, city, state, country, postal_code, phone, email)" +
+        s"VALUES ('$name', '$contact', '$address', '$city', '$state', '$country', '$postal_code', $phone, '$email')"
+      val sql_statement = DBConnection.getConnection().createStatement()
+      val sql_results = sql_statement.executeUpdate(sql)
+      } catch {
+      case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+    }
   }
 
   def remove_vendor(): Unit = {
@@ -87,6 +107,21 @@ object ProductManager {
 
   def add_product(): Unit = {
     println("add_product()")
+    val vendor_id = scala.io.StdIn.readLine("Input vendor id: ")
+    val name = scala.io.StdIn.readLine("Input product name: ")
+    val description = scala.io.StdIn.readLine("Input description: ")
+    val weight = scala.io.StdIn.readLine("Input weight: ")
+
+    try {
+      val sql = s"INSERT INTO product (vendor_id, name, description, weight)" +
+        s"VALUES ('$vendor_id', '$name', '$description', '$weight')"
+      val sql_statement = DBConnection.getConnection().createStatement()
+      val sql_results = sql_statement.executeUpdate(sql)
+      } catch {
+      case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+    }
   }
 
   def remove_product(): Unit = {

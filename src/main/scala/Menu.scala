@@ -13,6 +13,7 @@ object Menu {
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
+      println("\n")
 
       choice match {
         case 1 => display_warehouse_menu()
@@ -21,8 +22,6 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
-
-      println("\n")
     } while (!exit)
   }
 
@@ -41,6 +40,7 @@ object Menu {
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
+      println("\n")
 
       choice match {
         case 1 => WarehouseManager.show_warehouses()
@@ -52,8 +52,6 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
-
-      println("\n")
     } while (!exit)
   }
 
@@ -72,6 +70,7 @@ object Menu {
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
+      println("\n")
 
       choice match {
         case 1 => ProductManager.show_vendors()
@@ -83,8 +82,6 @@ object Menu {
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
-
-      println("\n")
     } while (!exit)
   }
 
@@ -94,20 +91,21 @@ object Menu {
       var choice = 0
       println("---------------- Inventory Management Menu ----------------")
       println("1. Show Inventory...")
-      println("2. Adjust...")
+      println("2. Load Data From File...")
+      println("3. Adjust...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
       choice = scala.io.StdIn.readInt()
-
+      println("\n")
+      
       choice match {
         case 1 => InventoryManager.show_inventory()
-        case 2 => InventoryManager.adjust()
+        case 2 => FileReader.import_file()
+        case 3 => InventoryManager.adjust()
         case 0 => exit = true
         case _ => println("Opps! Please choose a valid menu option.")
       }
-
-      println("\n")
     } while (!exit)
   }
 }

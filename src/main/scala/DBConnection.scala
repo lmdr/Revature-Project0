@@ -4,6 +4,7 @@ object DBConnection {
   private var connection: Connection = _
 
   def connect(): Unit = {
+    // TODO: Move these to environmental variables?
     val uri = "jdbc:mysql://localhost/project0"
     val user = "user"
     val pass = "password"

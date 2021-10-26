@@ -1,11 +1,15 @@
-import java.sql.SQLException
+// Not needed for now: import java.sql.SQLException
 import scala.io.Source
 
+// Container for importing data from file in to database
 object FileReader {
-  def import_file():Unit = {
+  // Imports comma separated values from file in to database
+  def import_file(): Unit = {
     val input_file = scala.io.Source.fromFile("Project0Data_SampleData.csv")
     for (line <- input_file.getLines().drop(1)) {
       val attributes = line.split(",").map(_.trim)
+
+      // TEMP: For now, display data loaded from file
       println(
       "{\n" +
       s"\tproduct:\n\t{\n\t\tname: ${attributes(0)},\n\t\tdescription: ${attributes(1)},\n\t\tweight: ${attributes(2)}\n\t},\n" +
@@ -23,6 +27,8 @@ object FileReader {
       "}"
       )
 
+      // TODO: import data into vendor, warehouse, product, location, inventory tables respectively
+      /*
       try {
         val sql_vendor = s"SELECT * from vendor WHERE name='${attributes(3)}' AND contact='${attributes(4)}' AND address='${attributes(5)}' AND city='${attributes(6)}'" +
           s" AND state='${attributes(7)}' AND country='${attributes(8)}' AND postal_code='${attributes(9)}' AND phone=${attributes(10)} AND email='${attributes(11)}'"
@@ -43,6 +49,9 @@ object FileReader {
         sql.printStackTrace()
         println("Error: SQL")
       }
+      */
     }
+
+    input_file.close()
   }
 }

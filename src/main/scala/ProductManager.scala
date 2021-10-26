@@ -58,7 +58,7 @@ object ProductManager {
 
     try {
       val sql = s"INSERT INTO vendor (name, contact, address, city, state, country, postal_code, phone, email)" +
-        s"VALUES ('$name', '$contact', '$address', '$city', '$state', '$country', '$postal_code', $phone, '$email')"
+        s"VALUES ('$name', '$contact', '$address', '$city', '$state', '$country', '$postal_code', '$phone', '$email')"
       val sql_statement = DBConnection.getConnection().createStatement()
       val sql_results = sql_statement.executeUpdate(sql)
       } catch {

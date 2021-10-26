@@ -1,9 +1,10 @@
+import java.sql.SQLException
 import scala.io.Source
 
 object FileReader {
   def import_file():Unit = {
     val input_file = scala.io.Source.fromFile("Project0Data_SampleData.csv")
-    for (line <- input_file.getLines()) {
+    for (line <- input_file.getLines().drop(1)) {
       val attributes = line.split(",").map(_.trim)
       println(
       "{\n" +
@@ -21,6 +22,27 @@ object FileReader {
       s"\tinventory:\n\t{\n\t\tquantity: ${attributes(21)}\n\t}\n" +
       "}"
       )
+
+      try {
+        val sql_vendor = s"SELECT * from vendor WHERE name='${attributes(3)}' AND contact='${attributes(4)}' AND address='${attributes(5)}' AND city='${attributes(6)}'" +
+          s" AND state='${attributes(7)}' AND country='${attributes(8)}' AND postal_code='${attributes(9)}' AND phone=${attributes(10)} AND email='${attributes(11)}'"
+        val sql_statement = DBConnection.getConnection().createStatement()
+        val sql_results = sql_statement.executeQuery(sql_vendor)
+        var vendor_id = 0
+        if (!sql_results.next()) {
+          val sql_vendor_insert = s"INSERT INTO vendor (name, contact, address, city, state, country, postal_code, phone, email)" +
+            s"VALUES ('${attributes(3)}', '${attributes(4)}', '${attributes(5)}', '${attributes(6)}',"+
+            s"'${attributes(7)}', '${attributes(8)}', '${attributes(9)}', ${attributes(10)}, '${attributes(11)}')"
+          sql_statement.executeUpdate(sql_vendor_insert)
+          vendor_id = sql_statement.executeQuery("SELECT LAST_INSERTED_ID()").getInt("vendor_id")
+        } else {
+          vendor_id = sql_results.getInt("vendor_id")
+        }
+      } catch {
+        case sql: SQLException =>
+        sql.printStackTrace()
+        println("Error: SQL")
+      }
     }
   }
 }

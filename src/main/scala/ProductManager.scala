@@ -2,7 +2,7 @@ import java.sql.SQLException
 
 object ProductManager {
   def show_vendors(): Unit = {
-    println("show_vendors()")
+    println("Show Vendors...")
     try {
       val sql = "SELECT * FROM vendor"
       val sql_statement = DBConnection.getConnection().createStatement()
@@ -34,7 +34,7 @@ object ProductManager {
           println("\tpostal_code: " + postal_code)
           println("\tphone: " + phone)
           println("\temail: " + email)
-          println("}\n")
+          println("}")
         } while (sql_results.next())
       }
     } catch {
@@ -45,7 +45,7 @@ object ProductManager {
   }
 
   def add_vendor(): Unit = {
-    println("add_vendor()")
+    println("Add Vendor...")
     val name = scala.io.StdIn.readLine("Input vendor name: ")
     val contact = scala.io.StdIn.readLine("Input contact name: ")
     val address = scala.io.StdIn.readLine("Input address: ")
@@ -73,7 +73,7 @@ object ProductManager {
   }
 
   def show_products(): Unit = {
-    println("show_products()")
+    println("Show Products...")
     try {
       val sql = "SELECT * FROM product"
       val sql_statement = DBConnection.getConnection().createStatement()
@@ -95,7 +95,7 @@ object ProductManager {
           println("\tname: " + name)
           println("\tdescription: " + description)
           println("\tweight: " + weight)
-          println("}\n")
+          println("}")
         } while (sql_results.next())
       }
     } catch {
@@ -106,7 +106,7 @@ object ProductManager {
   }
 
   def add_product(): Unit = {
-    println("add_product()")
+    println("Add Product...")
     val vendor_id = scala.io.StdIn.readLine("Input vendor id: ")
     val name = scala.io.StdIn.readLine("Input product name: ")
     val description = scala.io.StdIn.readLine("Input description: ")

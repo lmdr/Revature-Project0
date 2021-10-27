@@ -3,7 +3,7 @@ import scala.io.StdIn
 
 object WarehouseManager {
   def show_warehouses(): Unit = {
-    println("show_warehouses()")
+    println("Show Warehouses...")
     try {
       val sql = "SELECT * FROM warehouse"
       val sql_statement = DBConnection.getConnection().createStatement()
@@ -33,7 +33,7 @@ object WarehouseManager {
           println("\tpostal_code: " + postal_code)
           println("\tphone: " + phone)
           println("\temail: " + email)
-          println("}\n")
+          println("}")
         } while (sql_results.next())
       }
     } catch {
@@ -44,7 +44,7 @@ object WarehouseManager {
   }
 
   def add_warehouse(): Unit = {
-    println("add_warehouse()")
+    println("Add Warehouse...")
     val name = scala.io.StdIn.readLine("Input warehouse name: ")
     val address = scala.io.StdIn.readLine("Input address: ")
     val city = scala.io.StdIn.readLine("Input city: ")
@@ -71,7 +71,7 @@ object WarehouseManager {
   }
 
   def show_locations(): Unit = {
-    println("show_locations()")
+    println("Show Locations...")
     try {
       val sql = "SELECT * FROM location"
       val sql_statement = DBConnection.getConnection().createStatement()
@@ -89,7 +89,7 @@ object WarehouseManager {
           println("\tlocation_id: " + location_id)
           println("\twarehouse_id: " + warehouse_id)
           println("\tname: " + name)
-          println("}\n")
+          println("}")
         } while (sql_results.next())
       }
     } catch {
@@ -100,7 +100,7 @@ object WarehouseManager {
   }
 
   def add_location(): Unit = {
-    println("add_location()")
+    println("Add Location")
     val warehouse_id = scala.io.StdIn.readLine("Input warehouse id: ")
     val name = scala.io.StdIn.readLine("Input location name: ")
 

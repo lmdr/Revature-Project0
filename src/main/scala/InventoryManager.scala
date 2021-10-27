@@ -2,7 +2,7 @@ import java.sql.SQLException
 
 object InventoryManager {
   def show_inventory(): Unit = {
-    println("show_inventory()")
+    println("Show Inventory")
     try {
       val sql = "SELECT * FROM inventory"
       val sql_statement = DBConnection.getConnection().createStatement()
@@ -22,7 +22,7 @@ object InventoryManager {
           println("\tproduct_id: " + product_id)
           println("\tlocation_id: " + location_id)
           println("\tquantity: " + quantity)
-          println("}\n")
+          println("}")
         } while (sql_results.next())
       }
     } catch {

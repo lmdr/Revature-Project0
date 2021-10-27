@@ -5,7 +5,7 @@ object Menu {
     var exit = false
     do {
       var choice = 0
-      println("---------------- Main Menu ----------------")
+      println("\n---------------- Main Menu ----------------")
       println("1. Warehouse Management...")
       println("2. Product Management...")
       println("3. Inventory Management...")
@@ -29,13 +29,13 @@ object Menu {
     var exit = false
     do {
       var choice = 0
-      println("---------------- Warehouse Management Menu ----------------")
+      println("\n---------------- Warehouse Management Menu ----------------")
       println("1. Show Warehouses...")
       println("2. Add Warehouse...")
-      println("3. Remove Warehouse...")
+      // println("3. Remove Warehouse...")
       println("4. Show Locations...")
       println("5. Add Location...")
-      println("6. Remove Location...")
+      // println("6. Remove Location...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
@@ -59,13 +59,13 @@ object Menu {
     var exit = false
     do {
       var choice = 0
-      println("---------------- Product Management Menu ----------------")
+      println("\n---------------- Product Management Menu ----------------")
       println("1. Show Vendors...")
       println("2. Add Vendor...")
-      println("3. Remove Vendor...")
+      // println("3. Remove Vendor...")
       println("4. Show Products...")
       println("5. Add Product...")
-      println("6. Remove Product...")
+      // println("6. Remove Product...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
@@ -89,10 +89,10 @@ object Menu {
     var exit = false
     do {
       var choice = 0
-      println("---------------- Inventory Management Menu ----------------")
+      println("\n---------------- Inventory Management Menu ----------------")
       println("1. Show Inventory...")
       println("2. Load Data From File...")
-      println("3. Adjust...")
+      // println("3. Adjust...")
       println("0. Exit to Main Menu")
 
       print("Enter menu choice: ")
